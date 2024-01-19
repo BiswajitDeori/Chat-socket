@@ -1,6 +1,6 @@
 const { Server } = require("socket.io");
 
-const io = new Server({ cors: "http://localhost:3000" });
+const io = new Server({ cors: "https://chat-messager.onrender.com" });
 
 
 let onlineUsers = []
